@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('./my-font.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+}
+
+.hello {
+    color: red;
+    font-family: 'MyFont';
+    background: url('./close.png');
+}
+
+/*div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; !* Safari *!
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+}*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*
+.container {
+    padding: 2px 16px;
+}*/
